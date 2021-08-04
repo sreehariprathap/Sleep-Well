@@ -1,0 +1,79 @@
+.nav {
+    /* position:fixed */
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(140px);
+    border-radius: 30px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 80px;
+}
+.sleepwell_logo {
+    width: 8rem;
+    margin: 1.5rem;
+}
+.navitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation ul {
+    margin: 1.5rem;
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: #264653;
+}
+.navigation ul li {
+    padding: 1rem;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    border-radius: 50px;
+}
+.icons img {
+    margin: 0.5rem;
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 50px;
+}
+.user {
+    width: 40px;
+    height: 40px;
+}
+.cart {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+html
+
+
+<div class="nav">
+            <div class="logo">
+                <img class="sleepwell_logo" src="./assets/Sleepwell (2).png" alt="sleepwell">
+            </div>
+            <div class="navitems">
+                <div class="navigation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+                </div>
+                <div class="icons">
+                    <img class="user" src="./assets/user.png" alt="">
+                    <img class="cart" src="./assets/cart.png" alt="">
+                </div>
+
+            </div>
+        </div>
